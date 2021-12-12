@@ -41,7 +41,7 @@ $data =$stm->fetchAll();
                     <td><?php echo $r['gia'] ?></td>
                     <td><?php echo $r['hinh'] ?></td>
                     <td>
-                        <a href="delete.php?id=<?php echo $r['masach'] ?>">Xoa</a>
+                        <a class="btn btn-primary" href="delete.php?id=<?php echo $r['masach'] ?>">Xoa</a>
                     </td>
                 </tr>
                 <?php
